@@ -6,7 +6,9 @@
 
 Google Chrome extension that stores your side-thoughts with locale storage while you scroll around.
 
-/ Badges go here
+![GitHub language count](https://img.shields.io/github/languages/count/nydndr/distraction-journal)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nydndr/distraction-journal)
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/nydndr/distraction-journal)
 
 ## 🤓 Code
 This is a very short demonstration of what popup extensions can do in Google Chrome. A good example to give you an insight on how it works and also help with the most intriguint part - how to save data once the popup closes. The code is as minimalistic and friendly as it can be therefore good for learning therefore I'm keeping it here.
@@ -31,6 +33,8 @@ The visuals of it were facilitated by [Tailwind.css](https://github.com/tailwind
 I'm Nicoly Dandara. And I do spend too much in the internet.
 I design and I code, both things that require me to be focused and use the internet at the same time, which is a huge challenge and that's why this extension exists.
 
+![Twitter Follow](https://img.shields.io/twitter/follow/nydcosa?style=social)
+
 ## 🧐 Acknowledgements
 * Had fun reading tons and tons of - well written - documentation from Google Chrome.
 * Improved my understanding of localStorage and communication between files.
@@ -43,4 +47,6 @@ This is as simple and as is necessary and I don't intend to change this.
 --- 
 
 ### License
+![GitHub](https://img.shields.io/github/license/nydndr/distraction-journal)
+
 [MIT License](LICENSE.md)
