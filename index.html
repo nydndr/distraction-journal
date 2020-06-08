@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Just DRINK It!</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+		<meta charset="UTF-8">
+	</head>		
+	<body class="p-8 h-64 w-full border-t-2 border-blue-500">
+		<section id="home-screen">
+			<h1 class="w-64 font-regular text-base text-gray-900">Got distracted? Write it down.</h1>
+			
+			<textarea id="distraction" class="w-64 h-32 mt-8 mb-8 border-b text-base border-blue-300 italic font-grey-800 font-light" placeholder="Enter your disctraction so they can be kept from you while you handle your work. They are saved for you to remember later."></textarea>
+
+			<div class="mb-8">
+				<svg id="send-btn" class="inline stroke-current text-gray-400 hover:text-blue-500" viewBox="0 0 25 25" width="30" height="30" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+					<path d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+				</svg>
+				<svg id="archive-btn" class="inline stroke-current text-gray-400 hover:text-blue-500" viewBox="0 0 25 25" width="30" height="30" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+					<path d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path>
+				</svg>
+			</div>
+		</section>
+
+		<section id="archive-screen" class="hidden">
+			<svg id="back-btn" class="inline stroke-current text-gray-500 hover:text-blue-500" viewBox="0 0 25 25" width="30" height="30" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+				<path d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z"></path>
+			</svg>
+
+			<h2 class="w-64 mt-8 mb-8 font-light text-gray-500 text-lg">
+				You haven’t been distracted yet - there’s nothing here.
+			</h2>
+
+			<div id="notes-container" class="hidden divide-y divide-blue-100 w-64 h-32 mt-4 mb-8">
+				
+			</div>
+		</section>
+
+	<script type="text/javascript" src="counter.js"></script>
+	</body>	
+</html>

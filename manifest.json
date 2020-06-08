@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Distraction Journal",
+	"version": "0.0.1",
+	"browser_action": {
+		"default_icon": "128.png",
+		"default_popup": "index.html"
+	},
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": [
+		"storage"
+	]
+}
