@@ -10,6 +10,8 @@ Google Chrome extension that stores your side-thoughts with locale storage while
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nydndr/distraction-journal)
 ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/nydndr/distraction-journal)
 
+![screenshot](Screenshot.png)
+
 ## 🤓 Code
 This is a very short demonstration of what popup extensions can do in Google Chrome. A good example to give you an insight on how it works and also help with the most intriguint part - how to save data once the popup closes. The code is as minimalistic and friendly as it can be therefore good for learning therefore I'm keeping it here.
 
