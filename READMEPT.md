@@ -10,6 +10,8 @@ Extensão para o Google Chrome que arquiva seus pensamentos paralelos enquanto v
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nydndr/distraction-journal)
 ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/nydndr/distraction-journal)
 
+![screenshot](Screenshot.png)
+
 ## 🤓 Código
 Essa é a demonstração curta do que popups de extensão podem fazer no Google Chrome. Um exemplo bom pra ter uma ideia das limitações e possibilidades da ferramenta e também entender a parte mais intrigante - como salvar dados uma vez que o popup fecha.
 
